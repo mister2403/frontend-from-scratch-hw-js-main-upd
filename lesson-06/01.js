@@ -23,4 +23,10 @@ const oddNumbers = filter(numbers, (element, index) => {
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
 
-const filter = () => {}
+const languages = ["Java","TypeScript","C#","JavaScript","Julia"]
+
+const filter = languages.filter((language) => {
+    return language.startsWith("J")
+});
+
+console.log(filter);
